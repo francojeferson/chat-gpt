@@ -30,7 +30,7 @@
         - por fim, sempre que enviar uma questão, deve pegar o scroll da resposta e enviar para o fim da tela
     - se qualquer condição retornar erro, deve chamar `catch` e imprimir erro no console
     - após passar nas validações (ou retornar erros), a chamada `finally`:
-        - deve zerar a string `Carregando...` do `imputPergunta`
+        - deve zerar a string `Carregando...` do `inputPergunta`
         - deve habilitar o `inputPergunta`
         - deve dar `focus` no `inputPergunta`
     - ao terminar a chamada da API, deve tratar o retorno:
