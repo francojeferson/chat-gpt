@@ -1,0 +1,23 @@
+{
+  "name": "chat-gpt",
+  "version": "1.0.0",
+  "description": "**Objetivo**: praticar com API oferecida pela OpenAI utilizando interface de acesso à inteligência artificial.",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeferson-franco/chat-gpt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeferson-franco/chat-gpt/issues"
+  },
+  "homepage": "https://github.com/jeferson-franco/chat-gpt#readme",
+  "dependencies": {
+    "openai": "^3.1.0"
+  }
+}
