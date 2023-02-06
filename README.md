@@ -27,7 +27,7 @@
     - deve pegar o JSON no próximo `then` e fazer validações:
         - primeiro `if`: se o `resultadoIA` possuir valor, deve quebrar linha
         - segundo `if`: se ocorrer algum erro com o JSON, deve imprimir em tela; se não possuir erro, deve exibir a resposta enviada pela API através de array; para o caso de array vazio, deve aparecer `Sem resposta`
-        - por fim, sempre que enviar uma questão, deve pegar o scroll da resposta e enviar para o fim da tela
+        - por fim, sempre que enviar uma questão, o scroll do elemento ID `resultadoIA` é movido para o fim da tela
     - se qualquer condição retornar erro, deve chamar `catch` e imprimir erro no console
     - após passar nas validações (ou retornar erros), a chamada `finally`:
         - deve zerar a string `Carregando...` do `inputPergunta`
@@ -38,7 +38,7 @@
         - em seguida, deve adicionar uma nova linha de texto que começa com `Eu:` seguido do conteúdo na variável `valorPergunta`
         - depois, o valor do elemento ID `inputPergunta` deve ser alterado para `Carregando...`
         - por fim, o elemento ID `inputPergunta` é desabilitado
-    - na última linha da função, a rolagem do elemento ID `resultadoIA` é movida para o fim da página
+    - na última linha da função, o scroll do elemento ID `resultadoIA` é movido para o fim da tela
 
 - chamada da função EnviarPergunta:
     - chama elemento ID `EnviarPergunta` através da lógica do clique em `button`
